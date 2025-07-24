@@ -1,0 +1,220 @@
+'<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varshbhanu - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e6737223e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- here we eill add header section  -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="port-image/logo.png" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> <b>Frontend Web Developer</b> </p>
+                <h1>Hi, I am <span>Varshbhanu <br>Aggarwal </span> From India.</h1>
+            </div>
+        </div>
+    </div>
+<!-- // here we will add about section  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="port-image/me.jpg" ></div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I'm currently pursuing my B.tech in Computer Science and Engineering from Kurukestra University. While my academic journey started with basic programing skills like C, C++, HTML,CSS and JavaScript. I'm currently working on expanding my capabilities in web devlopment, real-world problem solving.<br><br>
+                    I've completed certified training in frontend web devlopment from KEN Computers. These experiences, combined with my growing knowledge of javascript, have equipped me with a strong foundation in both frontend technologies.
+                    <br><br>
+                    I've eager to learn new skills, collaborate with like - minded individuals, and take on challenges that help me grow as a developer.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div id="skills" class="tab-contents active-tab">
+                        <ul>
+                            <li><span>Frontend Web Devlopment</span><br>
+                            For Frontend website devlopment, I am using technologies like <span>HTML, CSS,</span> and <span> JavaScript</span> to create the visual elements, structure, and interactive features of a website. </li>
+                            <li><span>JavaScript Developer</span><br>
+                            Work on both the front-end (user interface) and back-end (server-side) components of web applications, using JavaScript along with frameworks like React,  and Node.js. </li>
+                           
+                        </ul>
+                    </div>
+                    <div id="Experience" class="tab-contents">
+                        <ul>
+                            <li><span>July,2025 - Cureent </span><br>
+                            Web Devlopment intern at Codsoft</li>
+                            <li><span>July-August,2024</span><br>Frontend Web Devlopment training at KEN Computers</li>
+                        </ul>
+                    </div>
+                    <div id="education" class="tab-contents">
+                        <ul>
+                            <li><span>Pursuing</span><br>
+                            Currently in 5<sup>th</sup> sem, doing Computer Science and Engineering (B.Tech) from Kurukestra university </li>
+                            <li><span>2022</span><br>
+                            Passed 12<sup>th</sup> with 76.3% from Modern Public School, Khatauli. </li>
+                            <li><span>2020</span><br>
+                            Passed 10<sup>th</sup> with 80% from Partap Singh Memorial Senior Secondary School, Kharkhoda, Sonipat, Haryana </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- services  -->
+
+     <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Servies</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Designing</h2>
+                    <p>Website designing is the process of planning, creating, and arranging the visual and functional elements of a website to create an engaging and user-friendly online experience.</p>
+                   <a href="https://www.geeksforgeeks.org/web-tech/web-development/">Learn more </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Responsive Website Devlopment </h2>
+                    <p>Responsive web design (RWD) is an approach to web design that ensures websites adapt and display correctly on various screen sizes and devices. It uses flexible layouts, flexible images, and media queries to provide an optimal viewing experience across desktops, tablets, and mobile phones.</p>
+                   <a href="https://www.geeksforgeeks.org/html/html-responsive-web-design/">Learn more </a>
+                </div>
+            
+            </div>
+        </div>
+     </div>
+
+<!--  portfolioo -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My-Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="port-image/work-1.png" >
+                    <div class="layer">
+                        <h3>Eduford University </h3>
+                        <p>In this project, Developed a sample web page for Eduford College including Home page, About page, Contact page, Course section and a blog page. along with I made it attractive and user-friendly by using HTML - CSS, focusing on clean design and seamless navigation</p>
+                        <a href="https://varshbhanuaggarwal19.github.io/sample-Eduford-College-website/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="port-image/work-2.png" >
+                       <div class="layer">
+                        <h3>Personal- Portfolio </h3>
+                        <p>I designed and developed a responsive personal portfolio website using modern front-end web technologies. The site showcases my skills, projects, resume, and contact information in a clean, user-friendly interface. Key features include a dynamic project gallery, smooth navigation, and mobile optimization. This project demonstrates my proficiency in front-end development.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                  <div class="work">
+                    <img src="port-image/work-1.png" >
+                    <div class="layer">
+                        <h3>Eduford University </h3>
+                        <p>In this project, Developed a sample web page for Eduford College including Home page, About page, Contact page, Course section and a blog page. along with I made it attractive and user-friendly by using HTML - CSS, focusing on clean design and seamless navigation</p>
+                        <a href="https://varshbhanuaggarwal19.github.io/sample-Eduford-College-website/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See-More</a>
+        </div>
+    </div>
+
+    <!-- ------ contact me <------------------ -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>varsbhanuaggarwal2006@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>91+ 9639777721</p>
+                    <div class="social-icon">
+                        <a href="https://github.com/VarshbhanuAggarwal19"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/varshbhanu_aggarwal_"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/varshbhanu-aggarwal"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="port-image/mayur cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+    <script>
+        // <!-- about me script  -->
+        var tablinks = document.getElementsByClassName("tab-links");
+               var tabcontents = document.getElementsByClassName("tab-contents");
+
+               function opentab(tabname){
+                  for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                  }
+                  for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                  }
+                  event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+               }
+               </script>
+<!-- //    -------------- for side menu ------------ -->
+ <script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+       
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+       
+    }
+ </script>
+
+ <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzUlqUsRrMyGEOHsl6xoi84tRCiTvw1yCroPhqaTdNG7Zq5tIQ7LH1QOmrbPCNyd2bY/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML= "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML= ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
